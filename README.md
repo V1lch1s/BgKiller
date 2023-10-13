@@ -11,6 +11,10 @@ how does it work?
 
 Output: Image edited and replaced at the destination. (With transparent background)
 
+Requirements:
+-Python 3 or superior
+-Python IDLE (If you want to modify it)
+
                         ████████████████████████████████████████
                         ████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████████
                         █████▀▀░░░░░░░░░░░░░░░░░░░░░░░░░▀███████
