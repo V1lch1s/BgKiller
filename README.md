@@ -1,9 +1,9 @@
-# RemoveBg-PNGs-
-A little proyect to remove an static background color from PNG using python. Designed to be used in conjunction with Microsoft Paint
+# BgKiller-
+A little proyect to remove an static background color from PNG using python.
 
 This project is an extra-academic initiative that I implemented to make PNG images transparent, specifically for use in video games and other projects.
 how does it work?
-→ Edit the image in Paint, replace the unwanted colors with the RGB tone (34, 177, 76) or dark green.
+→ Edit the image in Paint or another bitmap editor, replace the unwanted colors with the RGB tone (0,255,0) or pure green color.
 → Save the edited image as PNG.
 → Run the image transparency
 → Enter the folder that contains the image to be made transparent. Ex: C:\Users\example
@@ -12,11 +12,10 @@ how does it work?
 Output: Image edited and replaced at the destination. (With transparent background)
 
 Requirements:
--Python 3 or superior
--Python IDLE (If you want to modify it)
+-Actually Nothing. I evolved the app to an independent executable file.
 
 Note:
-Execute LibrariesInstaller.bat if you want to install all the required libraries automatically.
+Created with Nuitka.
 
                         ████████████████████████████████████████
                         ████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████████
