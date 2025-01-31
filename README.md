@@ -11,12 +11,12 @@ how does it work?
 
 Output: Image edited and replaced at the destination. (With transparent background)
 
-Requirements:
+## Requirements:
 -Actually Nothing. I evolved the app to an independent executable file.
 
-Note:
+## Note:
 Created with Nuitka.
-
+Compilation: python -m nuitka --onefile --windows-icon-from-ico=your-icon.ico program.py
                         ████████████████████████████████████████
                         ████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████████
                         █████▀▀░░░░░░░░░░░░░░░░░░░░░░░░░▀███████
