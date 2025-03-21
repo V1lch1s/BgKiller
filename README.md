@@ -17,7 +17,7 @@ Output: Image edited and replaced at the destination. (With transparent backgrou
 ## Note:
 Created with Nuitka.
 
-Compilation: python -m nuitka --onefile --windows-icon-from-ico=your-icon.ico program.py
+Compilation: nuitka --mode=standalone --windows-icon-from-ico=icon.ico --output-filename=BGKiller QuitarFondoStep2FromMeth.py
                         ████████████████████████████████████████
                         ████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████████
                         █████▀▀░░░░░░░░░░░░░░░░░░░░░░░░░▀███████
