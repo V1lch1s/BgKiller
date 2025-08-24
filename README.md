@@ -14,7 +14,7 @@ Output: Image edited and replaced at the destination. (With transparent backgrou
 ## Requirements:
 -Actually Nothing. I evolved the app to an independent executable file.
 
-## Note:
+## Notes:
 - Created with Nuitka.
 - Try to use python 3.12 to compile.
 - Update your libraries (NumPy, opencv-python, pillow).
