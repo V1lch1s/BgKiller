@@ -15,7 +15,9 @@ Output: Image edited and replaced at the destination. (With transparent backgrou
 -Actually Nothing. I evolved the app to an independent executable file.
 
 ## Note:
-Created with Nuitka.
+- Created with Nuitka.
+- Try to use python 3.12 to compile.
+- Update your libraries (NumPy, opencv-python, pillow).
 
 Compilation: nuitka --mode=standalone --windows-icon-from-ico=icon.ico --output-filename=BGKiller QuitarFondoStep2FromMeth.py
 
