@@ -16,9 +16,10 @@ img = img.convert('RGBA')
 pixdata = img.load()
 for y in range(img.size[1]):
     for x in range(img.size[0]):
-        if pixdata[x,y][0] == 0 or pixdata[x,y][0] == 1 and pixdata[x,y][1] == 255 and pixdata[x,y][2] == 0 or pixdata[x,y][2] == 1:
+        if pixdata[x,y][0] == 0 or pixdata[x,y][0] == 1 or pixdata[x,y][0] == 2 or pixdata[x,y][0] == 3 or pixdata[x,y][0] == 4 or pixdata[x,y][0] == 5 and pixdata[x,y][1] == 255 and pixdata[x,y][2] == 0 or pixdata[x,y][2] == 1 or pixdata[x,y][2] == 2 or pixdata[x,y][2] == 3 or pixdata[x,y][2] == 4 or pixdata[x,y][2] == 5:
            pixdata[x, y] = (255, 255, 255,0)
 
 img.save("{}/{}".format(carpeta,imgName)) #Image.save(fp, format=None, **params)
 img.show()
+
 
